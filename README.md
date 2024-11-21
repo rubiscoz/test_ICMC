@@ -35,4 +35,3 @@ O modelo de Regressão Logística teve um desempenho perfeito no conjunto de tes
 O modelo SVM teve um desempenho levemente inferior, com acurácia de 97%. A principal limitação foi no recall da classe Iris-versicolor.
 
 Ambos os modelos são excelentes para este conjunto de dados. Se o objetivo é maximizar a acurácia, a Regressão Logística é a melhor escolha.
-Se for necessário analisar o comportamento em outros conjuntos de dados, técnicas como validação cruzada (cross-validation) devem ser aplicadas para verifi
