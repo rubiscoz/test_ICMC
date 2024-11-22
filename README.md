@@ -1,18 +1,21 @@
 # test_ICMC
-Este código define uma classe modelo que automatiza o treinamento e a avaliação de modelos machine learning.
+Aplicação de dois modelos de classificação dos dados com o uso do dataset iris
 
-SVM (Support Vector Machine)
+Acerca do dataset
+
+
+Modelos utilizados
+
+1. SVM (Support Vector Machine)
 O SVM é um algoritmo de aprendizado supervisionado que busca encontrar o hiperplano ideal que separa as classes em um espaço de características.
 É particularmente útil para problemas de classificação e funciona bem em casos onde as classes não são linearmente separáveis.
 
-Logistic Regression
+2. Regressão Logistica
 Apesar do nome, Logistic Regression não é um algoritmo de regressão, mas sim de classificação.
 Ele é usado para prever a probabilidade de uma amostra pertencer a uma classe específica (por exemplo, "sim" ou "não").
 
 Em nosso teste 
-
 Resultados por Modelo:
-
 SVM (Support Vector Machine):
 
 Acurácia: 97%
@@ -33,5 +36,3 @@ Resumo:
 
 O modelo de Regressão Logística teve um desempenho perfeito no conjunto de teste.
 O modelo SVM teve um desempenho levemente inferior, com acurácia de 97%. A principal limitação foi no recall da classe Iris-versicolor.
-
-Ambos os modelos são excelentes para este conjunto de dados. Se o objetivo é maximizar a acurácia, a Regressão Logística é a melhor escolha.
