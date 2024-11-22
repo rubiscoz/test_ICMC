@@ -3,6 +3,20 @@ Aplicação de dois modelos de classificação dos dados com o uso do dataset ir
 
 Acerca do dataset
 
+O conjunto de dados Iris é um dos mais populares e amplamente utilizados em aprendizado de máquina e estatística, especialmente para resolver problemas de classificação. Ele foi compilado por Ronald A. Fisher em 1936 e reúne informações sobre três espécies de flores do gênero Iris:
+
+    Iris setosa
+    Iris versicolor
+    Iris virginica
+
+Este dataset possui 150 amostras, distribuídas de forma igual entre as três espécies de flores (50 amostras para cada espécie). Cada amostra contém 4 características numéricas, medidas em centímetros, que descrevem aspectos morfológicos das flores. Essas características são:
+
+    SepalLengthCm: Comprimento da sépala
+    SepalWidthCm: Largura da sépala
+    PetalLengthCm: Comprimento da pétala
+    PetalWidthCm: Largura da pétala
+
+Além das características acima, o conjunto de dados inclui a coluna Species, que representa o rótulo de classificação, indicando a espécie correspondente a cada flor.
 
 Modelos utilizados
 
